@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PixelTest.Storage.Api.Host.Contracts\PixelTest.Storage.Api.Host.Contracts.csproj" />
+    <ProjectReference Include="..\PixelTest.Track.Services.Contracts\PixelTest.Track.Services.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

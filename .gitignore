@@ -1,0 +1,10 @@
+.vs/
+packages/
+bin/
+obj/
+pkg/
+__pycache__/
+cdk.out
+.venv
+.gitlab-ci.yml
+/.gitlab-ci.yml

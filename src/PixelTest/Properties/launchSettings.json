@@ -1,0 +1,23 @@
+{
+  "profiles": {
+    "Track.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "index.html",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:1000"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/index.html",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://+:80"
+      },
+      "publishAllPorts": true
+    }
+  }
+}
